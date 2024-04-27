@@ -1,12 +1,12 @@
 Config = {}
 
-Config.PoliceOnDutyRequired = 2           -- amount of police required to be on duty to rob a house
+Config.PoliceOnDutyRequired = 0           -- amount of police required to be on duty to rob a house
 
 Config.LimitTime = true                   -- Use in-game clock hours to set the time the houses can be robbed
-Config.MinimumTime = 6                    -- only needed if LimitTime is true
-Config.MaximumTime = 22                   -- only needed if LimitTime is true
+Config.MinimumTime = 17                    -- only needed if LimitTime is true
+Config.MaximumTime = 23.5                   -- only needed if LimitTime is true
 
-Config.TimeToCloseDoors = 25              -- in minutes (only start counting after one person enters the house)
+Config.TimeToCloseDoors = 15              -- in minutes (only start counting after one person enters the house)
 
 Config.RequireScrewdriver = true          -- if true, you need a screwdriver to rob a house when not using advanced lockpick
 
@@ -3503,12 +3503,12 @@ Config.Houses = {
     },
     ['prosperity4'] = {
         ['coords'] = {
-            ['x'] = -1054.07,
-            ['y'] = -1000.2,
-            ['z'] = 6.41,
-            ['h'] = 296.69
+            ['x'] = -1000.675,
+            ['y'] = -758.54,
+            ['z'] = -1.0,
+            ['h'] = -180.9
         },
-        ['opened'] = false,
+        ['opened'] = true,
         ['tier'] = 1,
         ['furniture'] = {
             [1] = {
@@ -3551,7 +3551,7 @@ Config.Houses = {
                 ['coords'] = { ['x'] = 6.19, ['y'] = 3.35, ['z'] = 1.0 },
                 ['searched'] = false,
                 ['isBusy'] = false,
-                ['text'] = 'Night Stand Cabinet'
+                ['text'] = 'Search through night stand cabinet'
             },
             [7] = {
                 ['type'] = 'kitchen',
